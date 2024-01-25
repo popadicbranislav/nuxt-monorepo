@@ -1,0 +1,14 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --stream -parallel -r run dev",
+    "lint": "eslint ."
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.6.3",
+    "eslint": "npm:eslint-ts-patch@^8.56.0-0",
+    "lerna": "^8.0.2"
+  }
+}

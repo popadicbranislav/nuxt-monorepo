@@ -1,0 +1,23 @@
+0 silly argv {
+0 silly argv   _: [ 'create' ],
+0 silly argv   lernaVersion: '8.0.2',
+0 silly argv   '$0': '../../Library/pnpm/global/5/node_modules/lerna/dist/cli.js',
+0 silly argv   name: 'chat-ui'
+0 silly argv }
+1 notice cli v8.0.2
+2 verbose packageConfigs Package manager "pnpm" detected. Resolving packages using `pnpm-workspace.yaml`.
+3 verbose rootPath /Users/A62284838/c/test-lerna-2
+4 warn ENOREMOTE No git remote found, skipping repository property
+5 error Error: canceled
+5 error     at Interface.<anonymous> (/Users/A62284838/c/test-lerna-2/node_modules/.pnpm/read@2.1.0/node_modules/read/lib/read.js:79:15)
+5 error     at Interface.emit (node:events:513:28)
+5 error     at [_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1124:18)
+5 error     at ReadStream.onkeypress (node:internal/readline/interface:273:20)
+5 error     at ReadStream.emit (node:events:513:28)
+5 error     at emitKeys (node:internal/readline/utils:357:14)
+5 error     at emitKeys.next (<anonymous>)
+5 error     at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
+5 error     at ReadStream.emit (node:events:513:28)
+5 error     at addChunk (node:internal/streams/readable:324:12)
+5 error     at readableAddChunk (node:internal/streams/readable:297:9)
+5 error     at Readable.push (node:internal/streams/readable:234:10)
