@@ -1,6 +1,8 @@
 import { createApp } from 'vue';
 import Test from './components/Room.vue';
 
+import 'virtual:uno.css';
+
 if (document.readyState === 'complete') {
   initApp();
 }
